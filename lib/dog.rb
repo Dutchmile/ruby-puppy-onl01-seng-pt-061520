@@ -16,4 +16,5 @@ attr_accessor :name
     @@all.each do |dog|
       dog.shift
     end
+  end
 end
