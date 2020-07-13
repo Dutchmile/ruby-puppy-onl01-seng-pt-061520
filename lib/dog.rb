@@ -15,9 +15,8 @@ attr_accessor :name
     @@all
   end
 
-  def Dog.all
+  def Dog.clear_all
     @@all.each do |dog|
-      binding.pry
       @@all.shift
     end
   end
