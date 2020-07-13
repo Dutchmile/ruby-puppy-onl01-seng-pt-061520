@@ -17,20 +17,4 @@ end
     @name = name
     Dog.save
   end
-
-  def Dog.all
-    @@all
-  end
-
-  def Dog.print_all
-    @@all.each do |dog|
-      puts "#{dog}"
-    end
-  end
-
-
-#  def Dog.clear_all
-#    @@all.each do |dog|
-#    end
-#  end
 end
