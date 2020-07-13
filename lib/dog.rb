@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog
 attr_accessor :name
 
@@ -15,6 +17,7 @@ attr_accessor :name
 
   def Dog.all
     @@all.each do |dog|
+      binding.pry
       @@all.shift
     end
   end
