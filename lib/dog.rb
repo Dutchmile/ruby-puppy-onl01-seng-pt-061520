@@ -17,4 +17,8 @@ end
     @name = name
     self.save
   end
+
+  def Dog.all
+    @@all
+  end
 end
