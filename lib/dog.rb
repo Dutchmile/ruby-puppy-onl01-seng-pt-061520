@@ -17,8 +17,7 @@ attr_accessor :name
 
   def Dog.print_all
     @@all.each do |dog|
-    binding.pry
-      puts "#{dog}"
+      print "#{dog}"
     end
   end
 
