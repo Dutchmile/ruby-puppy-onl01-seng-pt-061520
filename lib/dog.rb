@@ -15,9 +15,16 @@ attr_accessor :name
     @@all
   end
 
+  def Dog.print_all
+    @@all.each do |dog|
+      puts dog
+    end  
+  end
+    
+
   def Dog.clear_all
     @@all.each do |dog|
-      dog.delete
+      dog.
     end
   end
 end
