@@ -15,6 +15,6 @@ end
 
   def initialize(name)
     @name = name
-    name.save
+    self.save
   end
 end
