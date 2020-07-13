@@ -22,8 +22,7 @@ end
 
   def Dog.print_all
     @@all.each do |dog|
-      binding.pry
-      p "#{dog}"
+      puts "#{dog}"
     end
   end
 
