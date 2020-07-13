@@ -5,6 +5,10 @@ attr_accessor :name
 
 @@all = []
 
+def Dog.clear_all
+  @@all.clear
+end
+
 def Dog.save
   @@all << self
 end
@@ -13,8 +17,6 @@ end
     @name = name
     Dog.save
   end
-
-
 
   def Dog.all
     @@all
