@@ -8,6 +8,10 @@ attr_accessor :name
 
   def initialize(name)
     @name = name
+    Dog.save
+  end
+
+  def Dog.save
     @@all << self
   end
 
@@ -18,7 +22,7 @@ attr_accessor :name
   def Dog.print_all
     @@all.each do |dog|
       binding.pry
-      print "#{dog}"
+      p "#{dog}"
     end
   end
 
