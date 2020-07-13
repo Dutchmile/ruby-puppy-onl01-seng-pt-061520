@@ -23,6 +23,8 @@ end
   end
 
   def Dog.print_all
-    @@all.each {|dog| puts "#{dog}"}
+    @@all.each do |dog|
+      puts dog.name
+    end
   end
 end
