@@ -17,7 +17,7 @@ attr_accessor :name
 
   def Dog.clear_all
     @@all.each do |dog|
-      @@all.delete
+      dog.delete
     end
   end
 end
