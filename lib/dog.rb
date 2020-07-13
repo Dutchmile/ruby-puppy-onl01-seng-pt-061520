@@ -9,7 +9,7 @@ def Dog.clear_all
   @@all.clear
 end
 
-def Dog.save(dog)
+def Dog.save
   @@all << self
 end
 
