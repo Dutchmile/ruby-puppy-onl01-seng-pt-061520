@@ -18,9 +18,9 @@ attr_accessor :name
   def Dog.print_all
     @@all.each do |dog|
       puts dog
-    end  
+    end
   end
-    
+
 
   def Dog.clear_all
     @@all.each do |dog|
