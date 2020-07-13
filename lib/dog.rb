@@ -15,6 +15,5 @@ end
 
   def initialize(name)
     @name = name
-    Dog.save
   end
 end
